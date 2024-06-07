@@ -1,3 +1,5 @@
+/* General Styles */
+
 main {
   margin-top: 60px;
 }
@@ -36,7 +38,7 @@ main p {
   width: 100%;
 }
 
-/* Groups & Items */
+/* Groups & Items  (Mobile First) */
 
 .group {
   display: flex;
@@ -54,11 +56,10 @@ main p {
   margin: 10px;
 }
 
-
+/* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
-  section,
-  h1 {
+  section {
     padding: 0 10%;
   }
 
